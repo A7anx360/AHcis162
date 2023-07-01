@@ -1,0 +1,12 @@
+body {background-color: lightblue; font-family: Segoe, Verdana, sans-serif;}
+
+header {background-color: lightgreen; font-family: Rockwell;}
+
+h1{color: darkcyan;}
+h2{font-family: Rockwell;}
+h3{font-family: Rockwell;}
+nav > ul {line-height: 2em; list-style-type: none; padding-left: 5px;}
+
+section {background-color: lightcyan; width: 75%; font-size: 1.2em;}
+
+footer {background-color: lightgreen;}
