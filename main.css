@@ -1,12 +1,83 @@
-body {background-color: lightblue; font-family: Segoe, Verdana, sans-serif;}
+@charset "UTF-8";
 
-header {background-color: lightgreen; font-family: Rockwell;}
+/*
+Written by: Alan Hernandez
+Date Written: June 30, 2023
+Date Modified: July 08, 2023
+*/
 
+/*HTML Settings of Some Sort*/
+html {height: 100%;}
+
+/*Body*/
+body {
+	background-color: lightblue;
+	font-family: Segoe, Verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	min-height: 100%;
+	max-width: 960px;
+	min-width: 640px;
+}
+
+/*Main Header*/
+header {background-color: lightgreen; font-family: Rockwell; text-align: center;}
+
+/*Other Headers*/
 h1{color: darkcyan;}
 h2{font-family: Rockwell;}
 h3{font-family: Rockwell;}
-nav > ul {line-height: 2em; list-style-type: none; padding-left: 5px;}
 
+/*Creates a horizontal navigation bar*/
+nav > ul {
+	line-height: 1.8em;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:lightgreen;
+	font-family: Rockwell;
+	font-size: 1.3em;
+}
+
+/*Aligns & organizes the navigation buttons in a horizontal layout*/
+li a {
+	width: 21.7%;
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+/* Changes the link color to  when the mouse hovers over each Button*/
+li a:hover {
+	background-color: darkgreen;
+    color: white;
+}
+
+/*Sections*/
 section {background-color: lightcyan; width: 75%; font-size: 1.2em;}
 
-footer {background-color: lightgreen;}
+/*Left Section*/
+section#left{clear: left; float: left; width: 45.2%; padding: 1.2em;}
+
+/*Right Section*/
+section#right{float: left; width: 45.2%; padding: 1.2em;}
+
+/*Image within a Section*/
+section > img{box-sizing: border-box; display: block; width: 100%; padding: 0.2em;}
+
+/*Footer*/
+footer {
+	box-sizing: border-box;
+	clear: left;
+	float: left;
+	width: 100%;
+	background-color: lightgreen;
+}
